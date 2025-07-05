@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@line/liff": "^2.27.0",
+    "@supabase/supabase-js": "^2.50.3",
+    "sweetalert2": "^11.22.2"
+  }
+}
