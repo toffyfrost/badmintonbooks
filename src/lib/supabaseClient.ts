@@ -4,6 +4,7 @@ export function createClient() {
   // สร้าง client สำหรับใช้งานฝั่ง Browser (Client-side)
   return createBrowserClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    process.env.NEXT_PUBLIC_LIFF_ID
   )
 }
